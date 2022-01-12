@@ -176,7 +176,7 @@ function filterByWord(array, item){
   const filteredArray = [];
   for (let i = 0; i < array.length; i++){
     if (array[i].includes(item)){
-      filteredArray.push(item)
+      filteredArray.push(array[i])
     }
   }
   return filteredArray;
